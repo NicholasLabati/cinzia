@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent implements OnInit {
-
-  constructor() { }
+mac:string[];
+  constructor() {
+    this.mac=['mac1','mac2','mac3'];
+  }
 
   ngOnInit() {
   }
